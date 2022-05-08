@@ -2,6 +2,8 @@ import lichess.api
 import pandas as pd
 
 
+
+
 def get_games_from_player(player_name: str, n: int) -> pd.DataFrame:
     """ Request the n last games data for a given player name.
 
